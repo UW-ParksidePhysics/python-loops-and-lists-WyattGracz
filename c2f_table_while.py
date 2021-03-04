@@ -1,8 +1,8 @@
-print '------------------'     # table heading
-C = -20                        # start value for C
-dC = 5                         # increment of C in loop
-while C <= 40:                 # loop heading with condition
-    F = (9.0/5)*C + 32         # 1st statement inside loop
-    print C, F                 # 2nd statement inside loop
-    C = C + dC                 # 3rd statement inside loop
-print '------------------'     # end of table line (after loop)
+F = 0                        # start value for C
+dF = 10                         # increment of C in loop
+print("Farenheit vs Celsius")     # table heading
+
+while F <= 100:                 # loop heading with condition
+    C = (F-32)/1.8         # 1st statement inside loop
+    print(F, C)                 # 2nd statement inside loop
+    F = F + dF                 # 3rd statement inside loop
