@@ -11,4 +11,4 @@ t = [i*dt for i in range(0,n)]
 
 y = [v0*t[i]-(.5*g*t[i]**2) for i in range(0,n)]
 
-ty1 = 
+
