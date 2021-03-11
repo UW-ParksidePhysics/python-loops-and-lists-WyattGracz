@@ -1,6 +1,6 @@
 total = 0
 i = 1
-n = 7
+n = 100
 
 while i<=n:
   total = total + i
